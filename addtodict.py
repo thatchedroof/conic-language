@@ -12,11 +12,11 @@ coneme_to_rep = {
     '6': "V'",
     '7': "'∧",
     '8': "'V",
-    '9': "OO",
-    '0': "XX"
+    '9': "<>",
+    '0': "><"
 }
 
-conemes = coneme_to_rep.keys()
+conemes = list(coneme_to_rep.keys())
 
 columns = ['english','synonyms']
 #print('\n'.join([coneme_to_rep[x] for x in 'FDEN']))
