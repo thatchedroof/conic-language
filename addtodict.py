@@ -30,6 +30,7 @@ def ask_for_entry():
     return pd.DataFrame([[english, synonyms]], columns=columns, index=[conic])
 
 if __name__ == '__main__':
+    """
     again = True
     while again == True:
         cdict = pd.read_csv('conicToEnglish.csv',
@@ -39,7 +40,12 @@ if __name__ == '__main__':
         new_cdict.index.name = 'conic'
         new_cdict.to_csv('conicToEnglish.csv')
         again = True if input('Again?') in {'', 'yes', 'Yes', 'y', 'Y'} else False
-
+    """
+    cdict = pd.read_csv('conicdictionaryold.csv',
+                        index_col='english')
+    del cdict['conic']
+    cdict.to_csv('conicdictionary.csv')
+    print(cdict)
 # %%
 
 # %%

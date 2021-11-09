@@ -1,74 +1,73 @@
-conic,english,synonyms
-NNNN,,
-JFGH,today,now
-EHAD,bug,insect
-CDIC,food,meal
-FEHI,down bad,downbad
-GJAD,demon,"daemon,evil spirit"
-IABD,sus,"suspicious,suspect"
-GJBJ,song,tune
-HCEN,video game,videogame
-ANDA,computer,laptop
-FICE,schoolwork,school work
-HAGB,homework,home work
-FNHN,personal work,hobby work
-JNJB,internet,"web,world wide web,online,on the internet,on the web,digital"
-DAHI,home,at home
-ECAJ,school,at school
-HANG,emotion,feeling
-IJIN,grip,
-GENF,wipe,
-NCDA,teacher,"godhead,god head"
-GEHE,student,"salthead,salt head,salted"
-CEFJ,civilian,
-JIFI,mask,"face mask,facemask,covid mask,N95"
-ANGC,ennea,"void,evil"
-DANF,death stare,"evil eye,eye of evil"
-NEJN,clown,"fool,joker,jester"
-BJBD,NSFW,"NSFS,inappropriate material"
-JCIE,cognitohazard,
-FJNH,lizard,reptile
-AFBH,meme,
-ABEC,groupchat,GC
-HFCE,paper,
-HCHJ,pencil,
-DACI,pen,
-ECBG,writing utensil,
-FDBJ,airplane,plane
-NIGH,helicopter,
-NJBE,bird,birb
-FCDI,tv show,television show
-GJAB,web video,internet video
-ECEH,based,"awesome,cool,amazing"
-FCAD,repost,"repeat,redoing"
-GEAC,phone,"cellphone,cellular device"
-EAJG,shed,
-CHFG,class,"period,learning time,perversion,adulteration"
-CFHN,sport,"P.E.,personal entertainment,physical activity"
-CDCI,science,
-FHFG,write,
-CEBI,math,
-CGED,history,distant past
-AEHD,draw,"paint,painting,drawing"
-DGDE,room,
-BHNB,door,"liminal,transition,doorway"
-ECJI,zoom,online class
-GIDJ,vaccine,"protection,cure,remedy,medicine"
-AGAC,gay,homosexual
-INEF,straight,heterosexual
-CJFH,fictional,"fake,not real,unreal"
-DFCE,surreal,
-IEGI,sincerity,sincere
-FDIG,ironic,
-DAGA,postironic,post-ironic
-ACBA,new sincerity,newly sincere
-EFGF,alive,"living,live"
-HDGN,dead,
-FGIC,old,"ancient,adult"
-HEGN,young,"new,child,intelligent"
-BHJC,sleep,"rest,still"
-CHDE,tomorrow,future
-IJAI,yesterday,past
-AFCF,dismissal,"kill,eliminate,destroy,end"
-ABAH,create,"birth,ressurect"
-EBDF,forever,"infinite,every day,everyday"
+english,synonyms
+today,now
+bug,insect
+food,meal
+down bad,downbad
+demon,"daemon,evil spirit"
+sus,"suspicious,suspect"
+song,tune
+video game,videogame
+computer,laptop
+schoolwork,school work
+homework,home work
+personal work,hobby work
+internet,"web,world wide web,online,on the internet,on the web,digital"
+home,at home
+school,at school
+emotion,feeling
+grip,
+wipe,
+teacher,"godhead,god head"
+student,"salthead,salt head,salted"
+civilian,
+mask,"face mask,facemask,covid mask,N95"
+ennea,"void,evil"
+death stare,"evil eye,eye of evil"
+clown,"fool,joker,jester"
+NSFW,"NSFS,inappropriate material"
+cognitohazard,
+lizard,reptile
+meme,
+groupchat,GC
+paper,
+pencil,
+pen,
+writing utensil,
+airplane,plane
+helicopter,
+bird,birb
+tv show,television show
+web video,internet video
+based,"awesome,cool,amazing"
+repost,"repeat,redoing"
+phone,"cellphone,cellular device"
+shed,
+class,"period,learning time,perversion,adulteration"
+sport,"P.E.,personal entertainment,physical activity"
+science,
+write,
+math,
+history,distant past
+draw,"paint,painting,drawing"
+room,
+door,"liminal,transition,doorway"
+zoom,online class
+vaccine,"protection,cure,remedy,medicine"
+gay,homosexual
+straight,heterosexual
+fictional,"fake,not real,unreal"
+surreal,
+sincerity,sincere
+ironic,
+postironic,post-ironic
+new sincerity,newly sincere
+alive,"living,live"
+dead,
+old,"ancient,adult"
+young,"new,child,intelligent"
+sleep,"rest,still"
+tomorrow,future
+yesterday,past
+dismissal,"kill,eliminate,destroy,end"
+create,"birth,ressurect"
+forever,"infinite,every day,everyday"
