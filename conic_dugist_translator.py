@@ -1,11 +1,16 @@
 #%%
 # Definitions
 
+import pandas as pd
+import re
 import random
 
 conemes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-phonemes = ['p', 't', 'k', 'b', 'd', 'g', 'n', 'm', 'l', 's']
-vowel_pairs = ['aa', 'ei', 'ii', 'oo', 'uu', 'ai', 'oi', 'ou', 'ia', 'oa',]
+onsets = ['p', 'b', 't', 'd', 'k', 'g', 'n', 'ng', 'm', 'f', 'v', 's', 'z', 'sh', 'zh', 'ch', 'r', 'l', 'j', 'w']
+vowels = ['a', 'e', 'i', 'o', 'u']#'a2','e2','i2','o2','u2'
+codas  = ['', 'n', 'ng', 'm', 'f', 'v', 's', 'sh', 'ch', 'l']
+
+coneme_to_index = dict(zip(conemes, range(10)))
 
 def random_conon() -> str:
 
@@ -29,50 +34,126 @@ def random_conon() -> str:
     # Return conon of 3 conemes
     return random_conic_string('', 3)
 
-def conon_to_word(conon) -> str:
+def conon_to_word(conon: str) -> str:
 
-    coneme_to_phoneme = dict(zip(conemes, phonemes))
+    initial = conon[0]
 
-    coneme_to_vowel_pair = dict(zip(conemes, vowel_pairs))
+    medial = conon[1]
 
-    consonant_1 = coneme_to_phoneme[conon[0]]
+    try:
+        final = conon[2]
 
-    consonant_2 = coneme_to_phoneme[conon[1]]
+    except:
+        final = ''
 
-    vowel_pair = coneme_to_vowel_pair[conon[2]]
+    if initial == medial:
+        print('INIT == MEDI ERROR:', initial + medial + final)
 
-    vowel_1 = vowel_pair[0]
+    if medial == final:
+        print('MEDI == FINA ERROR:', initial + medial + final)
 
-    vowel_2 = vowel_pair[1]
+    if len(conon) == 2:
+        if initial == 'A' and medial == 'A':
+            return 'na'
 
-    return consonant_1 + vowel_1 + consonant_2 + vowel_2
+        if initial == 'B' and medial == 'B':
+            return 'ku'
 
-def word_to_conon(word) -> str:
+        if initial == 'C' and medial == 'C':
+            return 'li'
 
-    phoneme_to_coneme = dict(zip(phonemes, conemes))
+        if initial == 'D' and medial == 'D':
+            return 'so'
 
-    vowel_pair_to_coneme = dict(zip(vowel_pairs, conemes))
+        else:
+            print('INVALID 2-CONON ERROR:', initial + medial)
 
-    coneme_1 = phoneme_to_coneme[word[0]]
+    coda = codas[coneme_to_index[final]]
 
-    coneme_2 = phoneme_to_coneme[word[2]]
+    vowel = vowels[coneme_to_index[medial] % 5]
 
-    coneme_3 = vowel_pair_to_coneme[word[1] + word[3]]
+    if coneme_to_index[medial] < 5:
+        onset = onsets[coneme_to_index[initial]]
 
-    assert coneme_1 != coneme_2
+    else:
+        onset = onsets[coneme_to_index[initial] + 10]
 
-    assert coneme_2 != coneme_3
+    return onset + vowel + coda
 
-    return coneme_1 + coneme_2 + coneme_3
 
+def word_to_conon(word: str) -> str:
+
+    onset, vowel, coda = re.split('([aeiou])', word)
+
+    final = conemes[codas.index(coda)]
+
+    initial = conemes[onsets.index(onset) % 10]
+
+    if onsets.index(onset) < 10:
+        medial = conemes[vowels.index(vowel)]
+
+    else:
+        medial = conemes[vowels.index(vowel) + 5]
+
+    if initial == medial:
+        print('INIT == MEDI ERROR:', initial + medial + final)
+
+    if medial == final:
+        print('MEDI == FINA ERROR:', initial + medial + final)
+
+    return initial + medial + final
+
+def check_all_conons():
+    errors = []
+    for i in range(10):
+        for j in range(10):
+            for k in range(10):
+                if conemes[i] == conemes[j]:
+                    continue
+                if conemes[j] == conemes[k]:
+                    continue
+                original = conemes[i] + conemes[j] + conemes[k]
+                translated = word_to_conon(conon_to_word(original))
+                if original != translated:
+                    errors.append([original, translated])
+    return errors
+
+"""
 def sentence_to_conon(sentence):
     return list(map(word_to_conon, sentence.split(' ')))
-
+"""
 #%%
 # Running
 
 if __name__ == '__main__':
-    for i in range(10):
-        print(conon_to_word(random_conon()))
+
+    # sentence = ''
+
+    # for i in range(100):
+    #     sentence += conon_to_word(random_conon()) + ' '
+
+    # print(sentence)
+    cdict = pd.read_csv('conicdictionary.csv',
+                        index_col='conic')
+
+
+    def process_row(cdict, index, row):
+        #print(index)
+        return pd.Series({
+            'dugist': conon_to_word(index),
+            'english': row[1],
+            'synonyms': row[2]
+        }, name=index)
+
+    new_cdict = pd.DataFrame()
+
+    for index, row in cdict.iterrows():
+        new_cdict = new_cdict.append(process_row(new_cdict, index, row))
+
+    new_cdict = new_cdict.sort_index()
+
+    print(new_cdict)
+
+    new_cdict.to_csv('conicdictionary.csv')
 
 # %%

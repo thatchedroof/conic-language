@@ -1,73 +1,106 @@
-english,synonyms
-today,now
-bug,insect
-food,meal
-down bad,downbad
-demon,"daemon,evil spirit"
-sus,"suspicious,suspect"
-song,tune
-video game,videogame
-computer,laptop
-schoolwork,school work
-homework,home work
-personal work,hobby work
-internet,"web,world wide web,online,on the internet,on the web,digital"
-home,at home
-school,at school
-emotion,feeling
-grip,
-wipe,
-teacher,"godhead,god head"
-student,"salthead,salt head,salted"
-civilian,
-mask,"face mask,facemask,covid mask,N95"
-ennea,"void,evil"
-death stare,"evil eye,eye of evil"
-clown,"fool,joker,jester"
-NSFW,"NSFS,inappropriate material"
-cognitohazard,
-lizard,reptile
-meme,
-groupchat,GC
-paper,
-pencil,
-pen,
-writing utensil,
-airplane,plane
-helicopter,
-bird,birb
-tv show,television show
-web video,internet video
-based,"awesome,cool,amazing"
-repost,"repeat,redoing"
-phone,"cellphone,cellular device"
-shed,
-class,"period,learning time,perversion,adulteration"
-sport,"P.E.,personal entertainment,physical activity"
-science,
-write,
-math,
-history,distant past
-draw,"paint,painting,drawing"
-room,
-door,"liminal,transition,doorway"
-zoom,online class
-vaccine,"protection,cure,remedy,medicine"
-gay,homosexual
-straight,heterosexual
-fictional,"fake,not real,unreal"
-surreal,
-sincerity,sincere
-ironic,
-postironic,post-ironic
-new sincerity,newly sincere
-alive,"living,live"
-dead,
-old,"ancient,adult"
-young,"new,child,intelligent"
-sleep,"rest,still"
-tomorrow,future
-yesterday,past
-dismissal,"kill,eliminate,destroy,end"
-create,"birth,ressurect"
-forever,"infinite,every day,everyday"
+conic,dugist,english,synonyms
+IBA,me,and,
+GAJ,nal,light,
+JCA,fi,of,
+ABC,peng,see,"watch,observe,understand,truly pay attention"
+ABD,pem,image,"picture,draw,imagine"
+ACG,pis,feel,"emotion,misbehave,act out,defy"
+ADH,posh,tool,thing used for a specific purpose
+AEH,push,event,"occurence,incident,happening"
+AFA,va,1st person,
+AFH,vash,stick,"rod,branch"
+AFI,vach,androgyne,androgynous
+AGH,vesh,hair,"string,chain"
+AIA,vo,absent,"missing,freed,fake,traveling"
+AIJ,vol,remain,"hard,unbreakable,unmovable,fixed,stay,unchanging"
+AJH,vush,hurt,"injure,damage,break,ruin"
+AJI,vuch,paper,"blank,to be modified"
+BAF,bav,inside,"center,secret,forbidden,sacred,obscured"
+BCF,biv,decoration,"shrub,bush,flower,sign"
+BDB,bon,work,"operate,generate,suffer,boring"
+BED,bum,energy,"strength,activity,confident"
+BEG,bus,good,happy
+BEH,bush,can,"is able to,possible,ability"
+BGC,seng,end,"tip,finish,complete"
+BGE,sef,wealth,"money,power,cruelty,tyrrany"
+BHG,sis,get,"obtain,collect"
+BIC,song,same,"similar,like,equal,comrade"
+BIG,sos,many,"several,abundant,more,plenty"
+CDC,tong,remove,"throw away,get rid of"
+CEB,tun,put,"place,give,transfer,exchange"
+CEJ,tul,chaos,"entropy,unordered,messy,free"
+CFG,zas,high,"up,above,top,over,on"
+CGC,zeng,funny,"humorous,silly,stupid"
+CGH,zesh,open,"unlock,free,save,adulterate"
+CHA,zi,circle,"ball,wheel,repeat,cycle"
+CHC,zing,small,"short,less"
+CHD,zim,sleep,rest
+CIA,zo,3rd person,
+CJC,zung,sweet,"candy,hidden,indulgent"
+DAF,dav,lizard,
+DFA,sha,no,nothing
+DAH,dash,want,"wish,desire"
+DCA,di,time,"moment,duration,situation"
+DCD,dim,male,masculine
+DEA,du,du,kini du
+DGF,shev,back,"behind,rear"
+DHB,shin,speech,"voice,intelligible,communicate"
+DID,shom,front,
+EBE,kef,door,"threshold,gate,liminal,transition,window"
+EBG,kes,side,"next to,accompanying,partner,neighbor,with"
+EBH,kesh,listen,"hear,pay attention,presence,attendance"
+EBI,kech,bump,"hill,button"
+EDG,kos,use,with
+EGJ,zhel,bird,"fly,floating,wing"
+EDB,kon,every,"all,universe,all of creation"
+EJD,zhum,separate,"cut,divide,pull apart,split,slice,blade"
+EJH,zhush,tree,"large external decoration,basketball hoop"
+FBH,gesh,guardian,"parent,overseer,watcher,protector"
+FBJ,gel,night,"moon,strange,different,shadow,dark"
+FCF,giv,accident,"mistake,blunder"
+FCG,gis,bind,"law,manner,trap,control,imprison,system,obstacle,lock,rectify"
+FCH,gish,extra,"accessory,useless"
+FEA,gu,gu,bin gu
+FEB,gun,draw,"colorful,paint,picture"
+FHB,chin,change,"become,change to,flexible,movable,breakable,squishy"
+FHC,ching,what,question word
+FJG,chus,bottom,under
+GBC,neng,have,"own,contain,protect"
+GBE,nef,sound,"noise,unintelligible"
+GCH,nish,create,"birth,build,creative,activity"
+GCI,nich,strange,"weird,crazy,unpleasant"
+GFC,rang,food,"eat,consume,absorb,envelop"
+GFE,raf,only,"sole,alone,lonely"
+GFH,rash,body,"self,flesh,physical,form"
+GJD,rum,dirt,"gross,trash,dirty,unvaccinated,untouchable,sacred,holy"
+HAF,ngav,group,"partner,friend,binding,community"
+HBA,nge,conflict,"battle,fight,disconnection,argument,clash,attack,violent"
+HBJ,ngel,bad,"evil,unholy"
+HCB,ngin,touch,
+HDB,ngon,knowledge,"know,understand,data"
+HEB,ngun,weakness,"tired,dormant,inactive,broken"
+HEJ,ngul,clothing,"box,container,dressing,shield,surface"
+HFB,lan,animal,
+HGH,lesh,clean,"cleanse,wash,purify"
+HIB,lon,bug,insect
+HIF,lov,cold,
+ICH,mish,warm,"hot,cooked"
+IDF,mov,hole,orifice
+IEB,mun,need,"have to,must,necessary"
+IEI,much,name,"word,identity,character"
+IFG,jas,fun,"content,resting,pleased"
+IGA,je,2nd person,
+JAC,fang,arrive,"bring about,summon"
+JAD,fam,travel,"move,leave,walk,transport,mobile,free,unlimited"
+JBE,fef,room,"prison,suffocate,steal"
+JCF,fiv,area,"zone,territory,land"
+JDF,fov,object,"thing,something,stuff,anything"
+JDJ,fol,this,that
+JEG,fus,origin,"cause,from,because of,since"
+JEJ,ful,female,feminine
+JFA,wa,place,"location,real,exist,awake"
+JFD,wam,behave,"act well,conform,proper"
+JGD,wem,big,"important,long,enlarge,lengthen"
+JGF,wev,first,"main,leading,lord,rule,control,direct"
+JHD,wim,should,"path,road,way,doctrine"
+JIF,wov,may,"is allowed to,enable,permit"
