@@ -1,5 +1,6 @@
 conic,dugist,english,synonyms
 IBA,me,and,
+nu,or,                                //FIX
 GAJ,nal,light,
 JCA,fi,of,
 ABC,peng,see,"watch,observe,understand,truly pay attention"
@@ -98,7 +99,7 @@ JDF,fov,object,"thing,something,stuff,anything"
 JDJ,fol,this,that
 JEG,fus,origin,"cause,from,because of,since"
 JEJ,ful,female,feminine
-JFA,wa,place,"location,real,exist,awake"
+JFA,wa,place,"is,location,real,exist,awake"
 JFD,wam,behave,"act well,conform,proper"
 JGD,wem,big,"important,long,enlarge,lengthen"
 JGF,wev,first,"main,leading,lord,rule,control,direct"
